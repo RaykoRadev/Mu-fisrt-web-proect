@@ -1,6 +1,10 @@
 html {
     font-size: 25px;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
 
 header .header-top {
     display: flex;
@@ -50,4 +54,20 @@ header .header-bottom .social ul {
 
 header .header-bottom .social ul li {
     display: block;
+}
+
+.samples {
+    height: 80vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(189, 189, 189);
+}
+
+footer .creators {
+    display: flex;
+    justify-content: space-around;
 }
