@@ -1,0 +1,119 @@
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 4em;
+    /* flex-grow: 1; */
+    width: 100%;
+    font-size: 1.5em;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    background-color: blueviolet;
+    border-radius: 0.4em;
+    padding: 0.4em 0.6em;
+}
+
+header a:hover {
+    background-color: blue;
+    color: orange;
+}
+
+header .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+header .header-top .user ul {
+    display: flex;
+    gap: 1.5em;
+}
+header .header-top .user ul li {
+    display: block;
+}
+
+header .header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+    /* line-height: 2em; */
+}
+
+header .header-bottom .pages {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+header .header-bottom .pages ul {
+    display: flex;
+    gap: 2em;
+}
+
+header .header-bottom .pages ul li {
+    display: block;
+}
+
+header .header-bottom .social-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1.5em;
+}
+
+header .header-bottom .social-search search form {
+    display: flex;
+    height: 2.2em;
+}
+
+header .header-bottom .social-search search form input {
+    width: 100%;
+    border: none;
+    border-top-left-radius: 0.4em;
+    border-bottom-left-radius: 0.4em;
+    background-color: rgb(165, 84, 241);
+    color: white;
+}
+
+header .header-bottom .social-search search form input::placeholder {
+    padding: 0.4em;
+    color: white;
+}
+
+header .header-bottom .social-search search form button {
+    min-width: 7em;
+    border: none;
+    border-top-right-radius: 0.4em;
+    border-bottom-right-radius: 0.4em;
+    background-color: blueviolet;
+    color: white;
+    padding: 0.2em;
+}
+
+header .header-bottom .social ul {
+    display: flex;
+    gap: 1.5em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-bottom .social ul li {
+    display: block;
+}
+
+/* header .pages ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+header .pages ul li {
+    display: block;
+} */

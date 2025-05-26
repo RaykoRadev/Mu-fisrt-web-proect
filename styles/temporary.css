@@ -1,0 +1,16 @@
+.samples {
+    /* height: 80vh; */
+}
+
+.samples .cards,
+.samples .cakes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.show-few {
+    width: 30vw;
+}

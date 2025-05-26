@@ -3,11 +3,17 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         />
-        <link rel="stylesheet" href="some_base_styles.css" />
+        <link rel="stylesheet" href="styles/style.css" />
         <title>My gift-cards page</title>
     </head>
     <body>
@@ -26,52 +32,45 @@
                     </ul>
                 </section>
             </div>
-            <div class="header-bottom">
-                <nav>
-                    <section class="pages">
+
+            <nav class="header-bottom">
+                <section class="pages">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Catalog</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </section>
+                <section class="social-search">
+                    <search>
+                        <form action="#">
+                            <input
+                                type="text"
+                                name="search"
+                                placeholder="Search for card here..."
+                            />
+                            <button type="submit">Find the card</button>
+                        </form>
+                    </search>
+                    <section class="social">
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Catalog</a></li>
-                            <li><a href="#">Contact us</a></li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fa-brands fa-square-facebook"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-solid fa-at"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fa-solid fa-phone"></i
+                                ></a>
+                            </li>
                         </ul>
                     </section>
-                    <section class="social-search">
-                        <section class="search">
-                            <search>
-                                <form action="#">
-                                    <input
-                                        type="text"
-                                        name="search"
-                                        placeholder="Search for card here..."
-                                    />
-                                    <button type="submit">Find the card</button>
-                                </form>
-                            </search>
-                        </section>
-                        <section class="social">
-                            <ul>
-                                <li>
-                                    <a href="#"
-                                        ><i
-                                            class="fa-brands fa-square-facebook"
-                                        ></i
-                                    ></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i class="fa-solid fa-at"></i
-                                    ></a>
-                                </li>
-                                <li>
-                                    <a href="#"
-                                        ><i class="fa-solid fa-phone"></i
-                                    ></a>
-                                </li>
-                            </ul>
-                        </section>
-                    </section>
-                </nav>
-            </div>
+                </section>
+            </nav>
         </header>
 
         <div class="banner">
@@ -87,6 +86,74 @@
                 here will be some of the cards in small preview grid looking
                 area
             </p>
+
+            <div class="cards">
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                            alt="card1"
+                    /></a>
+                </section>
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                            alt="card3"
+                    /></a>
+                </section>
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                            alt="card2"
+                    /></a>
+                </section>
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                            alt="card4"
+                    /></a>
+                </section>
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                            alt="card5"
+                    /></a>
+                </section>
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                            alt="card6"
+                    /></a>
+                </section>
+            </div>
+            <div class="cakes">
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
+                            alt="cake1"
+                    /></a>
+                </section>
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
+                            alt="cake2"
+                    /></a>
+                </section>
+                <section class="show-few">
+                    <a href="#"
+                        ><img
+                            src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
+                            alt="cake3"
+                    /></a>
+                </section>
+            </div>
         </div>
 
         <footer>
