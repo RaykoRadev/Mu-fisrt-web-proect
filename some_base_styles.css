@@ -1,0 +1,53 @@
+html {
+    font-size: 25px;
+}
+
+header .header-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+div {
+    border: 2px solid black;
+}
+
+header .header-top .user ul {
+    display: flex;
+    gap: 2em;
+}
+header .header-top .user ul li {
+    display: block;
+}
+
+header .header-bottom nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+header .header-bottom nav .social-search {
+    display: flex;
+    align-items: center;
+}
+
+header .header-bottom .pages ul {
+    display: flex;
+    gap: 2em;
+}
+
+header .header-bottom .pages ul li {
+    display: block;
+}
+
+header .header-bottom .social ul {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .header-bottom .social ul li {
+    display: block;
+}
