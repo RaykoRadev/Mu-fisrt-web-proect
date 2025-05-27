@@ -95,8 +95,16 @@ header .header-bottom .social-search search form button {
     border-top-right-radius: 0.4em;
     border-bottom-right-radius: 0.4em;
     background-color: blueviolet;
-    color: white;
+    color: #eeeeee;
     padding: 0.2em;
+
+    outline: -4px solid blueviolet;
+    transition: all ease-in-out 300ms;
+}
+
+header .header-bottom .social-search search form button:hover {
+    outline: 4px solid white;
+    outline-offset: -3px;
 }
 
 header .header-bottom .social ul {
