@@ -18,9 +18,10 @@
     </head>
     <body>
         <header>
+            <img src="https://de.pinterest.com/pin/90564642479996343/" alt="" />
             <div class="header-top">
                 <section class="title">
-                    <h1>Welcome to our site</h1>
+                    <h1>Handmade by Fresia</h1>
                     <p>Created by my Awesomness</p>
                     <p>Cards produced by the best card-maker -> my cousin</p>
                 </section>
@@ -49,7 +50,10 @@
                                 name="search"
                                 placeholder="Search for card here..."
                             />
-                            <button type="submit">Find the card</button>
+                            <button type="submit">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                                Find the card
+                            </button>
                         </form>
                     </search>
                     <section class="social">
@@ -60,9 +64,14 @@
                                 ></a>
                             </li>
                             <li>
+                                <a href="#"
+                                    ><i class="fa-brands fa-instagram"></i
+                                ></a>
+                            </li>
+                            <li style="display: none">
                                 <a href="#"><i class="fa-solid fa-at"></i></a>
                             </li>
-                            <li>
+                            <li style="display: none">
                                 <a href="#"
                                     ><i class="fa-solid fa-phone"></i
                                 ></a>
@@ -81,78 +90,131 @@
             </p>
         </div>
 
-        <div class="samples">
-            <p>
-                here will be some of the cards in small preview grid looking
-                area
-            </p>
+        <div class="main-container">
+            <aside>
+                <p>Категории</p>
+                <div class="accordion">
+                    <input type="radio" name="accordion" id="section1" />
+                    <label for="section1">Картички</label>
+                    <div class="content">
+                        <p><a href="#">за рожден ден</a></p>
+                        <p><a href="#">новогодишни</a></p>
+                        <p><a href="#">юбилейни</a></p>
+                        <p><a href="#">бебешки</a></p>
+                        <p><a href="#">мъжки</a></p>
+                    </div>
+                    <input type="radio" name="accordion" id="section2" />
+                    <label for="section2">Покани</label>
+                    <div class="content">
+                        <p><a href="#">за рожден ден</a></p>
+                        <p><a href="#">новогодишни</a></p>
+                        <p><a href="#">юбилейни</a></p>
+                    </div>
+                    <input type="radio" name="accordion" id="section3" />
+                    <label for="section3">Торти</label>
+                    <div class="content">
+                        <p><a href="#">за рожден ден</a></p>
+                        <p><a href="#">новогодишни</a></p>
+                        <p><a href="#">юбилейни</a></p>
+                    </div>
+                    <input type="radio" name="accordion" id="section4" />
+                    <label for="section4">Подаръци</label>
+                    <div class="content">
+                        <p><a href="#">за рожден ден</a></p>
+                        <p><a href="#">новогодишни</a></p>
+                        <p><a href="#">юбилейни</a></p>
+                    </div>
+                    <input type="radio" name="accordion" id="section5" />
+                    <label for="section5">Албуми</label>
+                    <div class="content">
+                        <p><a href="#">за рожден ден</a></p>
+                        <p><a href="#">новогодишни</a></p>
+                        <p><a href="#">юбилейни</a></p>
+                    </div>
+                    <input type="radio" name="accordion" id="section6" />
+                    <label for="section6">Експлодиращи кутии</label>
+                    <div class="content">
+                        <p><a href="#">за рожден ден</a></p>
+                        <p><a href="#">новогодишни</a></p>
+                        <p><a href="#">юбилейни</a></p>
+                    </div>
+                </div>
+            </aside>
 
-            <div class="cards">
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
-                            alt="card1"
-                    /></a>
-                </section>
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
-                            alt="card3"
-                    /></a>
-                </section>
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
-                            alt="card2"
-                    /></a>
-                </section>
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
-                            alt="card4"
-                    /></a>
-                </section>
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
-                            alt="card5"
-                    /></a>
-                </section>
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
-                            alt="card6"
-                    /></a>
-                </section>
-            </div>
-            <div class="cakes">
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
-                            alt="cake1"
-                    /></a>
-                </section>
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
-                            alt="cake2"
-                    /></a>
-                </section>
-                <section class="show-few">
-                    <a href="#"
-                        ><img
-                            src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
-                            alt="cake3"
-                    /></a>
-                </section>
+            <div class="samples">
+                <p>
+                    here will be some of the cards in small preview grid looking
+                    area
+                </p>
+
+                <div class="cards">
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                                alt="card1"
+                        /></a>
+                    </section>
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                                alt="card3"
+                        /></a>
+                    </section>
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                                alt="card2"
+                        /></a>
+                    </section>
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                                alt="card4"
+                        /></a>
+                    </section>
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                                alt="card5"
+                        /></a>
+                    </section>
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/14/69/a4/1469a4966ca09b964c051523cde3fdf0.jpg"
+                                alt="card6"
+                        /></a>
+                    </section>
+                </div>
+
+                <div class="cakes">
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
+                                alt="cake1"
+                        /></a>
+                    </section>
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
+                                alt="cake2"
+                        /></a>
+                    </section>
+                    <section class="show-few">
+                        <a href="#"
+                            ><img
+                                src="https://i.pinimg.com/736x/1e/8e/e9/1e8ee9a13e3c2768ac849b60d2ac71db.jpg"
+                                alt="cake3"
+                        /></a>
+                    </section>
+                </div>
             </div>
         </div>
 

@@ -1,5 +1,21 @@
+/* html {
+    width: 100dvw;
+} */
+
+body > img {
+    z-index: -1;
+}
+body > .main-container {
+    display: flex;
+    padding: 2em 4em;
+    width: 100%;
+    font-size: 1.4em;
+    gap: 2em;
+}
+
 .samples {
     /* height: 80vh; */
+    justify-content: center;
 }
 
 .samples .cards,
@@ -12,5 +28,5 @@
 }
 
 .show-few {
-    width: 30vw;
+    width: 25vw;
 }

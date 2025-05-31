@@ -1,0 +1,62 @@
+aside {
+    border-radius: 1em;
+    background-color: yellow;
+}
+
+aside > p {
+    font-size: 1.3em;
+    font-weight: 600;
+    text-align: center;
+}
+
+aside .accordion {
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion input[type="radio"] {
+    display: none;
+}
+.accordion label:hover {
+    background-color: blue;
+    color: orange;
+}
+
+.accordion label {
+    display: block;
+    background: blueviolet;
+    color: white;
+    padding: 0.2em;
+    cursor: pointer;
+    border-top: 1px solid blueviolet;
+}
+.accordion .content p:hover {
+    background-color: blue;
+    color: orange;
+}
+.accordion .content {
+    max-height: 0;
+    overflow: hidden;
+    background: rgb(165, 84, 241);
+    /* color: white; */
+    transition: max-height 0.3s ease;
+    padding: 0 1em;
+}
+
+.accordion .content p {
+    border-bottom: 1px solid black;
+}
+
+.accordion .content a {
+    text-decoration: none;
+    color: white;
+}
+
+.accordion input[type="radio"]:checked + label + .content {
+    max-height: 15em; /* adjust based on your content */
+    padding: 0.8em;
+}
+
+.main-container aside {
+    width: 30%;
+}

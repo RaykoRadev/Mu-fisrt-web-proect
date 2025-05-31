@@ -90,7 +90,7 @@ header .header-bottom .social-search search form input::placeholder {
 }
 
 header .header-bottom .social-search search form button {
-    min-width: 7em;
+    min-width: 9em;
     border: none;
     border-top-right-radius: 0.4em;
     border-bottom-right-radius: 0.4em;
@@ -100,6 +100,11 @@ header .header-bottom .social-search search form button {
 
     outline: -4px solid blueviolet;
     transition: all ease-in-out 300ms;
+}
+
+header .header-bottom .social-search search form button .fa-solid,
+.fas {
+    font-weight: 600;
 }
 
 header .header-bottom .social-search search form button:hover {
